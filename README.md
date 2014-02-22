@@ -1,5 +1,8 @@
+Data Sources
+------------
+Post data sources to https://docs.google.com/document/d/1VUgWGgmdIxcnESDtNNVzvbUuAvGlowoyTJyG-Rmx2jk/edit#
 Installation guide (Mac OSX)
-===========================
+---------------------------
 **Install Brew package manager**
 
     ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"

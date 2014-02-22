@@ -1,0 +1,55 @@
+@import 'bootstrap/bootstrap';
+
+$pad: 15px;
+$passive: #ccc;
+
+body {
+	height: 100%;
+}
+
+#side-bar {
+	padding: $pad 0;
+	width: 280px;
+	min-height: 100%;
+	border-right: 1px solid $passive;
+
+	.search {
+		padding: $pad;
+	}
+}
+#current-values {
+	position: relative;
+}
+#value-selects, #value-counts {
+	position: absolute;
+	width: 100%;
+
+	.key {
+		display: block;
+		padding: 4px $pad;
+		width: 100%;
+
+		.label {
+			margin-top: 1px;
+			float: right;
+		}
+
+		&:hover {
+			background-color: $passive;
+			cursor: pointer;
+
+			.label {
+
+			}
+		}
+	}
+	.selected {
+		background-color: tomato;
+	}
+}
+
+#map-canvas {
+	width: 100%;
+	height: 600px;
+	display: none;
+}
